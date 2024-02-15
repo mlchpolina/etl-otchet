@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d5c8c7fadda4f2051851f89bec6e9457 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d5c8c7fadda4f2051851f89bec6e9457" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d5c8c7fadda4f2051851f89bec6e9457 = L.map(
+                "map_d5c8c7fadda4f2051851f89bec6e9457",
+                {
+                    center: [55.7558, 37.6176],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b55d4809e97835c96ef2d87701a2cdda = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_b55d4809e97835c96ef2d87701a2cdda.addTo(map_d5c8c7fadda4f2051851f89bec6e9457);
+        
+    
+            var marker_12ddf871069060756b16bb0df56559a1 = L.marker(
+                [55.414307, 37.900526],
+                {}
+            ).addTo(map_d5c8c7fadda4f2051851f89bec6e9457);
+        
+    
+        var popup_779e6c89da36487372de916e9243404e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_883d10a09e24bfbdfc6ba4221716198f = $(`<div id="html_883d10a09e24bfbdfc6ba4221716198f" style="width: 100.0%; height: 100.0%;">Домодедово</div>`)[0];
+                popup_779e6c89da36487372de916e9243404e.setContent(html_883d10a09e24bfbdfc6ba4221716198f);
+            
+        
+
+        marker_12ddf871069060756b16bb0df56559a1.bindPopup(popup_779e6c89da36487372de916e9243404e)
+        ;
+
+        
+    
+    
+            var marker_ef48af83cebcfec21cdeaac1dd22c28f = L.marker(
+                [55.966771, 37.415713],
+                {}
+            ).addTo(map_d5c8c7fadda4f2051851f89bec6e9457);
+        
+    
+        var popup_3c16c5da9fe25960955f1a3de30db0a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_751163c974c847bbb544fbfda19f4d79 = $(`<div id="html_751163c974c847bbb544fbfda19f4d79" style="width: 100.0%; height: 100.0%;">Шереметьево</div>`)[0];
+                popup_3c16c5da9fe25960955f1a3de30db0a8.setContent(html_751163c974c847bbb544fbfda19f4d79);
+            
+        
+
+        marker_ef48af83cebcfec21cdeaac1dd22c28f.bindPopup(popup_3c16c5da9fe25960955f1a3de30db0a8)
+        ;
+
+        
+    
+    
+            var marker_ed1795c90d1d6759372432fd2ca0da9f = L.marker(
+                [55.605059, 37.286287],
+                {}
+            ).addTo(map_d5c8c7fadda4f2051851f89bec6e9457);
+        
+    
+        var popup_d0024e0ae77ad0ae6930dbc3693a2623 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39b7a909a13f9d7e0f9c4ef90eb65322 = $(`<div id="html_39b7a909a13f9d7e0f9c4ef90eb65322" style="width: 100.0%; height: 100.0%;">Внуково</div>`)[0];
+                popup_d0024e0ae77ad0ae6930dbc3693a2623.setContent(html_39b7a909a13f9d7e0f9c4ef90eb65322);
+            
+        
+
+        marker_ed1795c90d1d6759372432fd2ca0da9f.bindPopup(popup_d0024e0ae77ad0ae6930dbc3693a2623)
+        ;
+
+        
+    
+    
+            var marker_1e014ee7f00367e40434ea893fc826b7 = L.marker(
+                [55.502859, 37.510824],
+                {}
+            ).addTo(map_d5c8c7fadda4f2051851f89bec6e9457);
+        
+    
+        var popup_82124a9ae1063d23ade8dc4dd46cbf17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a76d4e0287f1f8c8548373fa45196b0 = $(`<div id="html_3a76d4e0287f1f8c8548373fa45196b0" style="width: 100.0%; height: 100.0%;">Остафьево</div>`)[0];
+                popup_82124a9ae1063d23ade8dc4dd46cbf17.setContent(html_3a76d4e0287f1f8c8548373fa45196b0);
+            
+        
+
+        marker_1e014ee7f00367e40434ea893fc826b7.bindPopup(popup_82124a9ae1063d23ade8dc4dd46cbf17)
+        ;
+
+        
+    
+    
+            var marker_c4a7021175e17b4c37a7301d5298092f = L.marker(
+                [55.56155, 38.117812],
+                {}
+            ).addTo(map_d5c8c7fadda4f2051851f89bec6e9457);
+        
+    
+        var popup_7721b63ed9a5713c0e8fb69584d042a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_461c956be792539b09c391d19df77bad = $(`<div id="html_461c956be792539b09c391d19df77bad" style="width: 100.0%; height: 100.0%;">Жуковский</div>`)[0];
+                popup_7721b63ed9a5713c0e8fb69584d042a4.setContent(html_461c956be792539b09c391d19df77bad);
+            
+        
+
+        marker_c4a7021175e17b4c37a7301d5298092f.bindPopup(popup_7721b63ed9a5713c0e8fb69584d042a4)
+        ;
+
+        
+    
+</script>
+</html>
